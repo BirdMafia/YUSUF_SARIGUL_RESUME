@@ -1,0 +1,65 @@
+.experience-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.experience-title {
+  font-family: 'UnifrakturCook', cursive;
+  color: #FFD700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-card {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: scale(1.02);
+}
+
+.timeline-icon {
+  font-size: 2rem;
+  color: #FFD700;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  text-align: left;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  color: #FFD700;
+  font-size: 1.5rem;
+}
+
+.company, .date {
+  margin: 3px 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.details {
+  margin-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+  color: #f1e4c6;
+  font-size: 0.95rem;
+}

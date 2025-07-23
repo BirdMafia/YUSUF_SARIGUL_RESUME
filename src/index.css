@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #004466;
+  color: #fff;
+}
+
+#root {
+  
+  width: 100%;
+}
